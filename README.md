@@ -585,6 +585,7 @@
         </div>
     </header>
 
+<<<<<<< Updated upstream
     <main class="container">
         <!-- Tela de Boas-Vindas -->
         <section id="welcome-screen" class="screen active">
@@ -1522,3 +1523,13 @@
     </script>
 </body>
 </html>
+=======
+
+
+
+
+
+👨‍💻 Autores
+Desenvolvido por Italo alemão
+Correções de bugs por @tuninhoxp at github
+>>>>>>> Stashed changes

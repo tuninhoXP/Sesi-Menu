@@ -5,24 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sesi Lanches - Faça seu pedido online</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&display=swap" rel="stylesheet">
+</style>
+
     <style>
+        .bbh-sans-bogle-regular {
+        font-family: "BBH Sans Bogle", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
         :root {
             --sesi-blue: #0033A0;
             --sesi-red: #E4002B;
             --sesi-yellow: #FFD100;
             --sesi-light-gray: #F2F2F2;
             --sesi-dark-gray: #333333;
+
         }
         
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: "BBH Sans Bogle";
+            
         }
         
         body {
-            background-color: var(--sesi-light-gray);
+            background-color:#6d6d6d;
             color: var(--sesi-dark-gray);
         }
         
@@ -34,7 +47,8 @@
         
         /* Header */
         header {
-            background-color: white;
+            
+            background-color: #a2c8e1;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             position: sticky;
             top: 0;
@@ -588,9 +602,11 @@
     <main class="container">
         <!-- Tela de Boas-Vindas -->
         <section id="welcome-screen" class="screen active">
+            
             <div class="welcome-content">
                 <div class="welcome-text">
-                    <h2>Bem-vindo ao SESI Lanches</h2>
+                    
+                    <h2>Bem-vindo ao SESI Lanches </h2>
                     <p>Faça seus pedidos online e evite filas na cantina!</p>
                     <div class="welcome-buttons">
                         <button class="btn btn-primary" id="login-btn-welcome">Fazer Login</button>
@@ -807,7 +823,7 @@
                     <a href="#">Contato</a>
                     <a href="#">Política de Privacidade</a>
                 </div>
-                <p>&copy; 2023 SESI. Todos os direitos reservados.</p>
+                <p>&copy; Criado e desenvolvido por Italo Alemão</p>
             </div>
         </div>
     </footer>
